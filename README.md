@@ -1,1 +1,120 @@
-# age-calculator
+---
+
+# 🐌 懒人年龄计算器（Lazy Age Calculator）
+
+一个专为“懒人”设计的年龄计算器工具包，支持 **图形界面版本（Python GUI）** 和 **网页版本（Flask Web）**。只需输入出生日期，其余一切交给程序自动计算。无需动脑、无需翻日历，动动手指就能知道你到底几岁，还能顺带看看星座和下次生日倒计时！
+
+---
+
+## ✨ 两种懒人使用方式
+
+| 版本              | 技术栈          | 使用方式                   | 特点             |
+| --------------- | ------------ | ---------------------- | -------------- |
+| 🖥️ Python GUI版 | Tkinter      | 下载 `.py` 或 `.exe` 文件运行 | 离线使用、无需联网      |
+| 🌐 Flask Web版   | Flask + HTML | 本地运行 Flask 后用浏览器访问     | 响应式网页、支持历史记录展示 |
+
+---
+
+## 🖥️ Python GUI版
+
+### 简介
+
+还在扳着手指数年龄？太OUT啦！这个“懒人专用”的图形界面年龄计算器，帮你自动搞定年龄计算。
+
+输入你的出生日期，程序会立刻告诉你现在几岁 —— 你甚至不需要知道今天是几号！
+
+### 界面预览
+
+> 👉 输入生日，点击“计算年龄”，懒人也能一秒知道自己几岁！
+
+![GUI 界面预览图](https://github.com/user-attachments/assets/4f7fa9d0-ae2a-47e2-8ed2-afc94b344ca3)
+
+### 特点
+
+* ✅ **图形界面交互友好**：界面简洁明了，不懂代码也能用
+* ✅ **自动获取当前日期**：你不需要知道今天几号
+* ✅ **适合 Windows 懒人**：双击 `.exe` 文件即用，超轻松
+
+### 下载链接
+
+* 💾 [下载 `age.py`](https://github.com/Re-ljk/age-calculator/blob/main/GUI版本/age.py)
+* 💾 [下载 `age.exe`](https://github.com/Re-ljk/age-calculator/blob/main/GUI版本/age.exe)
+
+---
+
+## 🌐 Flask Web版
+
+### 简介
+
+不想装软件？讨厌 GUI ？打开浏览器就能用的 Flask Web 版来了！
+
+在网页中输入出生年月日，页面立刻显示你：
+
+* 年龄（年/月/日/小时/分钟）
+* 星座
+* 下次生日倒计时
+* 历史记录（还能一键删除）
+
+### 页面预览
+
+![Web 页面预览图](https://github.com/user-attachments/assets/f196b9f0-63bf-42b4-ba74-dcedf1b8df09)
+
+### 特点
+
+* ✅ **无需安装，浏览器即可访问**
+* ✅ **详细年龄信息：年/月/天/小时/分钟**
+* ✅ **自动判断星座**
+* ✅ **生日倒计时**
+* ✅ **历史记录支持删除**
+
+### 安装和运行
+
+```bash
+pip install flask
+python main.py
+```
+
+然后打开浏览器访问：
+
+```
+http://127.0.0.1:5000/
+```
+
+### 文件结构
+
+```
+project/
+├── main.py                 # Flask 后端逻辑
+├── templates/
+│   └── index.html         # 前端页面模板
+```
+
+---
+
+## 📊 示例
+
+| 输入出生日期     | 年龄计算示例                       |
+| ---------- | ---------------------------- |
+| 1990-01-01 | 35岁（截至2025年）                 |
+| 2000-06-15 | 24年 10月 8750天，双子座，距下次生日还有44天 |
+
+---
+
+## 📥 下载方式总览
+
+| 文件           | 用途           | 下载链接                                                                                  |
+| ------------ | ------------ | ------------------------------------------------------------------------------------- |
+| `age.py`     | Python GUI源码 | [点此下载](https://github.com/Re-ljk/age-calculator/blob/main/GUI版本/age.py)               |
+| `age.exe`    | Windows可执行版  | [点此下载](https://github.com/Re-ljk/age-calculator/blob/main/GUI版本/age.exe)              |
+| `main.py`    | Flask后端逻辑    | [点此下载](https://github.com/Re-ljk/age-calculator/blob/main/Web版本/main.py)              |
+| `index.html` | 网页模板         | [点此下载](https://github.com/Re-ljk/age-calculator/blob/main/Web版本/templates/index.html) |
+
+---
+
+## 🧠 作者的话
+
+这个项目就是为了解放你的双手，哪怕你再懒，也能知道你几岁、属什么星座、还有多久过生日。如果你也是懒人一枚，那它可能正是你需要的工具！
+
+---
+
+需要我把这段内容整理成实际的 `README.md` 文件供你上传到 GitHub 吗？
