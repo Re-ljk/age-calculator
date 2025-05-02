@@ -30,10 +30,10 @@
 
 * **Python 源代码版本**：给程序员小伙伴们的福利，下载 `age.py`，然后直接运行。适合那些“我才不会用懒人版”的朋友。
 
-  * [下载 `age.py`](https://github.com/Re-ljk/age-calculator/blob/main/age.py)
+  * [下载 `age.py`](https://github.com/Re-ljk/age-calculator/blob/main//GUI版本/age.py)
 * **Windows 可执行文件版本**：给完全懒得动手的小伙伴，下载 `age.exe`，直接在 Windows 上运行，零配置！
 
-  * [下载 `age.exe`](https://github.com/Re-ljk/age-calculator/blob/main/age.exe)
+  * [下载 `age.exe`](https://github.com/Re-ljk/age-calculator/blob/main//GUI版本/age.exe)
 
 ### 2. 运行程序
 
