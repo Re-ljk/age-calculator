@@ -2,7 +2,7 @@
 
 一个专为“懒人”设计的年龄计算器工具包，支持 **图形界面版本（Python GUI）** 和 **网页版本（Flask Web）**。只需输入出生日期，其余一切交给程序自动计算。无需动脑、无需翻日历，动动手指就能知道你到底几岁，还能顺带看看星座和下次生日倒计时！
 
----
+
 
 ## ✨ 两种懒人使用方式
 
@@ -11,7 +11,7 @@
 | 🖥️ Python GUI版 | Tkinter      | 下载 `.py` 或 `.exe` 文件运行 | 离线使用、无需联网      |
 | 🌐 Flask Web版   | Flask + HTML | 本地运行 Flask 后用浏览器访问     | 响应式网页、支持历史记录展示 |
 
----
+
 
 ## 🖥️ Python GUI版
 
@@ -38,7 +38,6 @@
 * 💾 [下载 `age.py`](https://github.com/Re-ljk/age-calculator/blob/main/GUI版本/age.py)
 * 💾 [下载 `age.exe`](https://github.com/Re-ljk/age-calculator/blob/main/GUI版本/age.exe)
 
----
 
 ## 🌐 Flask Web版
 
@@ -87,7 +86,7 @@ project/
 │   └── index.html         # 前端页面模板
 ```
 
----
+
 
 ## 📊 示例
 
@@ -96,7 +95,7 @@ project/
 | 1990-01-01 | 35岁（截至2025年）                 |
 | 2000-06-15 | 24年 10月 8750天，双子座，距下次生日还有44天 |
 
----
+
 
 ## 📥 下载方式总览
 
@@ -107,10 +106,9 @@ project/
 | `main.py`    | Flask后端逻辑    | [点此下载](https://github.com/Re-ljk/age-calculator/blob/main/Web版本/main.py)              |
 | `index.html` | 网页模板         | [点此下载](https://github.com/Re-ljk/age-calculator/blob/main/Web版本/templates/index.html) |
 
----
+
 
 ## 🧠 作者的话
 
 这个项目就是为了解放你的双手，哪怕你再懒，也能知道你几岁、属什么星座、还有多久过生日。如果你也是懒人一枚，那它可能正是你需要的工具！
 
----
