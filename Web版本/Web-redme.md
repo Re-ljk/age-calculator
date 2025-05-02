@@ -99,7 +99,7 @@ http://127.0.0.1:5000/
 
 ```
 project/
-├── app.py                 # Flask 后端逻辑
+├── main.py                 # Flask 后端逻辑
 ├── templates/
 │   └── index.html         # 前端页面模板（你提供的 HTML）
 ```
