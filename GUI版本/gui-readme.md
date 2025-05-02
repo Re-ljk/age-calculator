@@ -12,7 +12,8 @@
 
 这是程序的界面，输入出生日期后，点击“计算年龄”，秒懂自己有多大！👇
 
-![image](https://github.com/user-attachments/assets/b0d22b09-c2db-44e2-bc4d-ced4e34d2e0a)
+![image](https://github.com/user-attachments/assets/4f7fa9d0-ae2a-47e2-8ed2-afc94b344ca3)
+
 
 ## 特点
 
