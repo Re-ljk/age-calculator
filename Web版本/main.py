@@ -4,9 +4,6 @@ import json
 
 app = Flask(__name__)
 
-# 设置secret_key以支持session和flash
-app.secret_key = 'your_unique_and_secret_key'  # 请将此处的'your_unique_and_secret_key'替换为一个更复杂的密钥
-
 # 存储用户历史记录
 history = []
 
