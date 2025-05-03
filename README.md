@@ -60,7 +60,7 @@
 
 ### 页面预览
 
-![image](https://github.com/user-attachments/assets/14a7a91e-8593-47e0-822b-f50bbf7bb114)
+![image](https://github.com/user-attachments/assets/53dceb7c-735d-4091-874a-c04506b29814)
 
 
 
