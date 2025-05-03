@@ -53,6 +53,13 @@
             border-radius: 5px;
         }
 
+        .countdown {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #007bff;
+            margin-top: 20px;
+        }
+
         /* 响应式设计 */
         @media (max-width: 768px) {
             .heading {
@@ -112,9 +119,10 @@
             <p>您的星座是：{{ zodiac_sign }}</p>
             {% endif %}
 
-            {% if countdown %}
-            <p>距离下一个生日还有：{{ countdown }}</p>
-            {% endif %}
+            <div id="countdown-container" class="countdown text-center">
+                <p>距离下一个生日还有：</p>
+                <p id="countdown-time"></p>
+            </div>
         </div>
         {% endif %}
 
@@ -144,6 +152,35 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        // 获取输入的出生日期
+        const birthYear = {{ request.form.get('birth_year') }};
+        const birthMonth = {{ request.form.get('birth_month') }};
+        const birthDay = {{ request.form.get('birth_day') }};
+
+        function updateCountdown() {
+            const now = new Date();
+            let nextBirthday = new Date(now.getFullYear(), birthMonth - 1, birthDay); // 下一个生日（年份为当前年）
+
+            // 如果今年的生日已经过去了，设置为明年的生日
+            if (nextBirthday < now) {
+                nextBirthday.setFullYear(now.getFullYear() + 1);
+            }
+
+            const timeDiff = nextBirthday - now;
+            const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+            const countdownText = `${days} 天 ${hours} 小时 ${minutes} 分钟 ${seconds} 秒`;
+            document.getElementById('countdown-time').textContent = countdownText;
+        }
+
+        // 每秒更新倒计时
+        setInterval(updateCountdown, 1000);
+    </script>
 
 </body>
 </html>
