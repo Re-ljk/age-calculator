@@ -54,7 +54,8 @@
 
 ### 页面预览
 
-![Web 页面预览图](https://github.com/user-attachments/assets/f196b9f0-63bf-42b4-ba74-dcedf1b8df09)
+![image](https://github.com/user-attachments/assets/0b59ff40-26e7-44f2-8243-d23046e5684f)
+
 
 ### 特点
 
