@@ -19,25 +19,28 @@
 
 还在扳着手指数年龄？太OUT啦！这个“懒人专用”的图形界面年龄计算器，帮你自动搞定年龄计算。
 
-输入你的出生日期，程序会立刻告诉你现在几岁 —— 你甚至不需要知道今天是几号！
+输入你的出生日期，程序会立刻告诉你现在几岁，甚至还会自动计算你的星座、下次生日倒计时 —— 你完全不用知道今天几号，懒得动脑，动动手指就能知道你的详细年龄信息！
 
 ### 界面预览
 
 > 👉 输入生日，点击“计算年龄”，懒人也能一秒知道自己几岁！
+![image](https://github.com/user-attachments/assets/5c8f1665-e90a-4ba3-9328-4066198bca3c)
 
-![image](https://github.com/user-attachments/assets/ebe280c3-ac47-453e-ad4d-ed0f0d1e3c2a)
 
 
 ### 特点
 
-* ✅ **图形界面交互友好**：界面简洁明了，不懂代码也能用
-* ✅ **自动获取当前日期**：你不需要知道今天几号
-* ✅ **适合 Windows 懒人**：双击 `.exe` 文件即用，超轻松
+* ✅ **图形界面交互友好**：界面简洁明了，哪怕你从没接触过代码，也能轻松使用。
+* ✅ **自动获取当前日期**：无需自己记得今天的日期，程序会自动处理。
+* ✅ **自动计算星座**：输入生日，立刻为你提供星座信息。
+* ✅ **生日倒计时**：告诉你距离下次生日还有多久。
+* ✅ **适合 Windows 用户**：双击 `.exe` 文件即可运行，完全无需安装。
 
 ### 下载链接
 
-* 💾 [下载 `age.py`](https://github.com/Re-ljk/age-calculator/blob/main/GUI版本/age.py)
-* 💾 [下载 `age.exe`](https://github.com/Re-ljk/age-calculator/blob/main/GUI版本/age.exe)
+* 💾 [下载 `age.py`](https://github.com/Re-ljk/age-calculator/blob/main/GUI版本/age.py) — Python 源代码
+* 💾 [下载 `age.exe`](https://github.com/Re-ljk/age-calculator/blob/main/GUI版本/age.exe) — Windows 可执行文件
+
 
 
 ## 🌐 Flask Web版
