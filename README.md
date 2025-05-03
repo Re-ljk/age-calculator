@@ -25,7 +25,8 @@
 
 > 👉 输入生日，点击“计算年龄”，懒人也能一秒知道自己几岁！
 
-![GUI 界面预览图](https://github.com/user-attachments/assets/4f7fa9d0-ae2a-47e2-8ed2-afc94b344ca3)
+![image](https://github.com/user-attachments/assets/ebe280c3-ac47-453e-ad4d-ed0f0d1e3c2a)
+
 
 ### 特点
 
