@@ -22,7 +22,8 @@
 
 🎨 **页面示意图：**
 
-![image](https://github.com/user-attachments/assets/fb356254-4221-41ad-a83a-9f4651345521)
+![image](https://github.com/user-attachments/assets/5cece21a-6637-4890-9926-caf213f6f14e)
+
 
 
 
