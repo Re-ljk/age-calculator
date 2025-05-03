@@ -22,7 +22,8 @@
 
 🎨 **页面示意图：**
 
-![image](https://github.com/user-attachments/assets/f196b9f0-63bf-42b4-ba74-dcedf1b8df09)
+![image](https://github.com/user-attachments/assets/fb356254-4221-41ad-a83a-9f4651345521)
+
 
 
 > 图：输入出生日期，点击按钮即可获得年龄详情
