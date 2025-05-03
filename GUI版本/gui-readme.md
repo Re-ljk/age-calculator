@@ -1,6 +1,4 @@
-以下是修改后的单独介绍：
 
----
 
 ## 🖥️ 懒人年龄计算器（Python GUI版）
 
@@ -70,5 +68,4 @@
 2. **自动获取当前日期**：不需要关心今天几号，程序自动计算，懒人无需动脑。
 3. **下载链接**：可以从 [age.py](https://github.com/Re-ljk/age-calculator/blob/main/age.py) 或 [age.exe](https://github.com/Re-ljk/age-calculator/blob/main/age.exe) 下载，随便选择，懒人无差别选择。
 
----
 
